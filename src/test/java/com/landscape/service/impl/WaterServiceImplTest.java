@@ -1,13 +1,13 @@
 package com.landscape.service.impl;
 
-import static org.junit.Assert.assertEquals;
-
 import com.landscape.service.WaterService;
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertEquals;
 
 @RunWith(JUnitParamsRunner.class)
 public class WaterServiceImplTest {
@@ -49,6 +49,5 @@ public class WaterServiceImplTest {
     private int[] getIntArray3() {
         return new int[]{3, 0, 0};
     }
-
 }
 
